@@ -7,13 +7,6 @@ import { PokemonGrid } from "./PokemonGrid";
 export const FavoritePokemons = () => {
 
   const favoritePokemons = useAppSelector( state => Object.values( state.pokemons.favorites ) );
-  // const [pokemons, setPokemons ] = useState( favoritePokemons );
-
-  // useEffect(() => {
-  //   // console.log({ favoritePokemons });
-  //   // setPokemons( favoritePokemons );
-  // }, [favoritePokemons])
-  
 
   return (
     <>
@@ -26,8 +19,6 @@ export const FavoritePokemons = () => {
     </>
   )
 }
-
-
 
 export const NoFavorites = () => {
   return (

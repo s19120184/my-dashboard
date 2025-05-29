@@ -15,8 +15,6 @@ interface Props {
 
     const stactic151Pokemons = Array.from({length:151}).map((v,i)=>`${i+1}`)
 
-   
-    console.log(stactic151Pokemons)
 
     return stactic151Pokemons.map((id)=>({
      id:id,
